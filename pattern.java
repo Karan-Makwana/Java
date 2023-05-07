@@ -264,9 +264,22 @@ public class pattern {
                 System.out.print(j);
             }
             System.out.println();
-        }
-        */
+        }*/
+        
 
+      /*   pattern 13: Diamond pattern
+
+         *
+        ***
+       *****
+      *******
+     *********
+     *********
+      *******
+       *****
+        ***
+         *
+            */
         int n=5;
         for(int i = 1;i<=n;i++) {
             for(int j = 1;j<=n-i;j++) {
@@ -285,6 +298,7 @@ public class pattern {
                 System.out.print("*");
             }
             System.out.println();
-        } 
+        }
+        
     }
 }
